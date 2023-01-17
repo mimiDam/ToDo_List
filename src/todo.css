@@ -1,0 +1,52 @@
+.containerTodo {
+  width: 40%;
+  margin: 100px auto;
+}
+.todo h1 {
+  text-align: center;
+  color: white;
+}
+.back {
+  background-color: rgb(36, 109, 125);
+  padding: 50px;
+}
+form {
+  display: flex;
+  justify-content: space-between;
+}
+.together button {
+  display: inline-block;
+
+  width: 15%;
+  padding: 12px;
+  font-size: 18px;
+  border-radius: 8px;
+  margin: 0 0 0 5px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  background-color: rgb(92, 156, 174);
+}
+.together input {
+  display: inline-block;
+  width: 80%;
+  height: 40px;
+}
+
+.taskDone {
+  text-decoration: line-through;
+}
+.col {
+  background-color: rgb(190, 209, 227);
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 0;
+  padding: 0 10px;
+  font-size: 18px;
+}
+.icons {
+  display: flex;
+  width: 10%;
+  padding-top: 20px;
+  justify-content: space-between;
+}
